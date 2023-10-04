@@ -1,0 +1,66 @@
+site_name: Workshop Web-Design for Scientists
+copyright: > # should remain a link to the original theme
+  &copy; 2023 Julia-Katharina Pfarr<br>
+
+repo_name: julia-pfarr/workshop_webdesign
+repo_url: https://github.com/julia-pfarr/workshop_webdesign
+
+theme:
+  name: material
+  custom_dir: material
+  palette:
+    primary: blue grey
+    accent: custom
+  #if custom color, instead (paired with extra_css below):
+    #primary: custom
+    #accent: custom  
+  font: 
+    text: Montserrat
+    code: Roboto Mono  
+  language: en
+  logo: assets/images/nowa-white.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.prune
+    - content.code.copy
+
+extra:
+  version:
+    provider: mike    
+
+#extra_css:
+ # - stylesheets/extra.css 
+
+docs_dir: docs
+
+nav:
+- Home: index.md
+- Requirements/Installing: installing.md
+- First Steps and Customization: custom.md
+- Creating a Landing Page: landing.md
+- Deployment on GitHub: deploy.md
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - codehilite
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
