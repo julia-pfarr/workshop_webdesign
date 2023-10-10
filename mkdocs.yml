@@ -26,22 +26,30 @@ theme:
     - navigation.sections
     - navigation.expand
     - content.code.copy
+    - content.code.select
+    - toc.integrate
 
 extra:
   version:
-    provider: mike    
+    provider: mike
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/jk_pfarr
 
 #extra_css:
- # - stylesheets/extra.css 
+  #- stylesheets/extra.css 
 
 docs_dir: docs
 
 nav:
 - Home: index.md
-- Requirements/Installing: installing.md
-- First Steps and Customization: custom.md
+- Installing: installing.md
+- Customization: custom.md
 - Creating a Landing Page: landing.md
+- Pretty and useful extras: extras.md
 - Deployment on GitHub: deploy.md
+- Further resources: resources.md
+
 
 markdown_extensions:
   - admonition
@@ -66,3 +74,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.pathconverter:
+      base_path: 'julia-pfarr/workshop_webdesign' 
+      relative_path: '../../artifacts/example.pdf'
+      absolute: false # default: false
+      tags: ''    
