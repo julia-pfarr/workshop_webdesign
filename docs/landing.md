@@ -51,66 +51,66 @@ Create a new directory on the same level as the `docs` folder called `material` 
 
 Create a `home.html` in your `overrides` directory and put the following content:
 ```html
-  {% extends "main.html" %}
-    {% block tabs %}
-        {{ super() }}
+{% extends "main.html" %}
+  {% block tabs %}
+    {{ super() }}
 
-    <!--/* Add library for social media buttons */ -->  
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+  <!--/* Add library for social media buttons */ -->  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
     
-    <style>
-    body 
-    /* Use "linear-gradient" if you want to add a darken background effect to the image. This will make the text easier to read */
-    {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/landing.png'); 
+  <style>
+  body 
+  /* Use "linear-gradient" if you want to add a darken background effect to the image. This will make the text easier to read */
+  {background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/landing.png'); 
     
-    /* If you want a background color instead of an image: 
-    background-color:powderblue;*/
+  /* If you want a background color instead of an image: 
+  background-color:powderblue;*/
 
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed; 
-    background-size: cover;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: cover;
 
-    /* Place text in the middle of the image */
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;}
+  /* Place text in the middle of the image */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;}
 
-    /* Fixate page */
-    .md-header{position:initial}
-    .md-main__inner{margin:0}
-    .md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}
-    </style>
+  /* Fixate page */
+  .md-header{position:initial}
+  .md-main__inner{margin:0}
+  .md-content{display:none}@media screen and (min-width:60em){.md-sidebar--secondary{display:none}}@media screen and (min-width:76.25em){.md-sidebar--primary{display:none}}
+  </style>
 
-    <!--/* Start content */-->
-        <div>
+  <!--/* Start content */-->
+      <div>
             
-            <!--/* Use attributes to define color, size, and alignment of your text; for ALL of the text, not just the header */-->
-            <header style="color:white; font-size:50px;"> My header</header>
-            <h1 style="color:white; font-size:30px;">Smaller heading</h1> 
-            <h2 style="color:white; font-size:20px;">Even smaller heading</h2> 
-            <p><br/>This is a very small text without resizing</p>
-            <p>This is a reference to another website within a text: <a href="url to website">Name</a></p>
+  <!--/* Use attributes to define color, size, and alignment of your text; for ALL of the text, not just the header */-->
+      <header style="color:white; font-size:50px;"> My header</header>
+      <h1 style="color:white; font-size:30px;">Smaller heading</h1> 
+      <h2 style="color:white; font-size:20px;">Even smaller heading</h2> 
+      <p><br/>This is a very small text without resizing</p>
+      <p>This is a reference to another website within a text: <a href="url to website">Name</a></p>
 
-            <!--If you want to put an image:
-            <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">-->
+      <!--If you want to put an image:
+      <img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">-->
             
-            <!--/* This is a button */-->
-            <button onclick="link;" type="button" padding="10px" style="background:white; color: black;" >Get started</button>
+      <!--/* This is a button */-->
+      <button onclick="link;" type="button" padding="10px" style="background:white; color: black;" >Get started</button>
 
-            <p><br/><br/><small>This is a suuuuper small text</p></small> 
+      <p><br/><br/><small>This is a suuuuper small text</p></small> 
 
-            <!--/* Use social media buttons; don't forget to size and color the button */-->
-            <a href="https://twitter.com/jk_pfarr" class="fa fa-twitter"></a>
+      <!--/* Use social media buttons; don't forget to size and color the button */-->
+      <a href="https://twitter.com/jk_pfarr" class="fa fa-twitter"></a>
 
-        </div>
-  {% endblock %}
+      </div>
+    {% endblock %}
   {% block content %}{% endblock %}
-  {% block footer %}{% endblock %}        
+{% block footer %}{% endblock %}        
 ```
 
 **Please see this [HTML info page] for formatting in html language.**
@@ -119,7 +119,7 @@ Create a `home.html` in your `overrides` directory and put the following content
 
 Create another file in the same directory called `main.html` with the following content:
 ```html
-  {% extends "base.html" %}
+{% extends "base.html" %}
 ```
 
 ##### Optional Task 4
