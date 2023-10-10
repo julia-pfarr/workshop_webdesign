@@ -74,8 +74,4 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.pathconverter:
-      base_path: 'julia-pfarr/workshop_webdesign' 
-      relative_path: '../../artifacts/example.pdf'
-      absolute: false # default: false
-      tags: ''    
+

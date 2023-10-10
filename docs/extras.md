@@ -2,12 +2,23 @@ Material for Mkdocs has a lot to offer in terms of making your website pretty an
 
 ## Adding a pdf file
 
-To display your CV you might want to have a pdf file added on your website instead of formatting your CV in Markdown. Here's how:
+To display your CV you might want to have a pdf file added on your website instead of formatting your CV in Markdown, like this:
 
-
+<object data="../artifacts/example.pdf" type="application/pdf" height= "500" width="100%">
+</object>
 
 ##### Task 1
 
+Create a new folder inside your `docs` folder called `artifacts`. Place your pdf-file inside the `artifacts` folder.
+
+##### Task 2
+
+Open your `CV.md` file. Place the following html-code inside the file:
+```html
+<object data="../artifacts/Filename.pdf" type="application/pdf" height= "500" width="100%">
+</object>
+```
+You can adjust the height and width as you wish. 
 
 
 ## More extras
