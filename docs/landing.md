@@ -50,7 +50,7 @@ Create a new directory on the same level as the `docs` folder called `material` 
 ##### Optional Task 2
 
 Create a `home.html` in your `overrides` directory and put the following content:
-```html
+```
 {% extends "main.html" %}
   {% block tabs %}
     {{ super() }}
@@ -118,7 +118,7 @@ Create a `home.html` in your `overrides` directory and put the following content
 ##### Optional Task 3
 
 Create another file in the same directory called `main.html` with the following content:
-```html
+```
 {% extends "base.html" %}
 ```
 
