@@ -77,7 +77,7 @@ Here's a short overview what you can do:
 You can make annotations (1) to your text. Even with emojis (**Extra task**)
 { .annotate }
 
-1. I'm an annotation! I can contain `code`, __formatted
+1.  I'm an annotation! I can contain `code`, __formatted
     text__, images, ... basically anything that can be expressed in Markdown.
 
 [You can make a button](#){ .md-button .md-button--primary }    
@@ -101,6 +101,10 @@ Highlighting:
 
 **...and much more! Try everything out!**
 
+##### Task 4
+
+Go to the [setup page] by Material for Mkdocs and find out about more customizations (e.g., page headers and the footer).
+
 
 ## Blog
 
@@ -110,7 +114,7 @@ nav:
 - Home: index.md
 - About: about.md
 - CV: cv.md
-- 'Blog':
+- Blog:
   - Topic 1: Topic1.md
   - Topic 2: Topic2.md
   - Topic 3: Topic3.md
@@ -119,10 +123,28 @@ nav:
 
 However, this will become a bit chaotic and unclear over time, depending on how many blog entries you want to make. Thus, I recommend looking into the Blog-Plugin to make your blog look more professional. 
 
+## License
 
+You should think about adding a [license] to your website. You can either display the license as an [extra tab] or include it in the copyright section, like so:
+```yaml
+site_name: Workshop Web-Design for Scientists
+copyright: <a href="https://choosealicense.com/licenses/mit/">License</a>
+  &copy; 2023 Julia-Katharina Pfarr<br>
+``` 
 
+## Imprint
+
+In the same way you can add a license to your copyright footer, you could add an imprint. This is **not necessary** for a non-commercial personal website but only for commercial websites. 
+
+## Privacy Policy
+
+If you set up your website in a way that you collect private data (e.g., newsletter or blog subscriptions), you will need a [Privacy Policy]. You can include this in the copyright footer as well, just as the license above. 
 
 [Material for Mkdocs]: https://squidfunk.github.io/mkdocs-material/reference/
 [^1]: I am a footnote.
+[setup page]: https://squidfunk.github.io/mkdocs-material/setup/
 [example Blog]: https://squidfunk.github.io/mkdocs-material/blog/
 [Blog-Plugin]: https://squidfunk.github.io/mkdocs-material/plugins/blog/
+[license]: https://creativecommons.org/
+[extra tab]: https://squidfunk.github.io/mkdocs-material/license/
+[Privacy Policy]: https://www.termsfeed.com/blog/privacy-policy-personal-websites/

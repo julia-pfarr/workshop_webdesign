@@ -1,5 +1,5 @@
 site_name: Workshop Web-Design for Scientists
-copyright: > # should remain a link to the original theme
+copyright: <a href="https://choosealicense.com/licenses/mit/">License</a>
   &copy; 2023 Julia-Katharina Pfarr<br>
 
 repo_name: julia-pfarr/workshop_webdesign
@@ -7,7 +7,6 @@ repo_url: https://github.com/julia-pfarr/workshop_webdesign
 
 theme:
   name: material
-  custom_dir: material
   palette:
     primary: blue grey
     accent: custom
@@ -35,6 +34,15 @@ extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/jk_pfarr
+    - icon: fontawesome/brands/github
+      link: https://github.com/julia-pfarr
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/julia-katharina-pfarr-2a6437236/
+    - icon: fontawesome/brands/researchgate
+      link: https://www.researchgate.net/profile/Julia-Katharina-Pfarr
+    - icon: material/email
+      link: mailto:pfarr@staff.uni-marburg.de 
+
 
 #extra_css:
   #- stylesheets/extra.css 

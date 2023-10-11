@@ -19,7 +19,7 @@ pip install \
     - syntax highlighting for multiple languages (which we will need)
     - displaying multiple files next to each other (we will need to modify content in multiple files simultaneously)
     - preview for rendered markdown-files (which we will work with to design the content)
-4. (optional but highly recommended) ... [Git] installed and cofigured on your local computer. 
+4. [Git] installed and configured on your local computer. 
 
 
 

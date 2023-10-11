@@ -23,8 +23,8 @@ extra:
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/your-account
-    - icon: ...
-      link: ...
+    - icon: material/email
+      link: mailto:email-address
 ```
 The icon will then appear in the footer of your website. You can search for the icons [here], replacing the `-` with `/` when you enter it in your yaml-file. 
 
