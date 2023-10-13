@@ -140,7 +140,6 @@ theme:
 ```
 
 
-
 [Google Slides]: https://docs.google.com/presentation/d/16Rgdn_-uqjZVwmeyDhGL41vKMRCFA0dSom2IpreZ59I/edit?usp=sharing
 [setup page]: https://squidfunk.github.io/mkdocs-material/setup/
 [localhost:8000]:http://localhost:8000

@@ -103,12 +103,23 @@ Highlighting:
 
 ##### Task 4
 
-Go to the [setup page] by Material for Mkdocs and find out about more customizations (e.g., page headers and the footer).
+Go to the [setup page] by Material for Mkdocs and find out about more customizations. E.g., for the footer Icons for social media can be included by defining them in the `mkdocs.yml` file like this:
+```yaml
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/your-account
+    - icon: material/email
+      link: mailto:email-address
+```
+The icon will then appear in the footer of your website. You can search for the icons [here], replacing the `-` with `/` when you enter it in your yaml-file. 
 
 
 ## Blog
 
-If you want to set up a blog on your website you might want to think about using the [Blog-Plugin] by Mkdocs. This plugin enables features such as adding a date, reading time, tags, and topics for your blog entries ([example Blog] from their website). If you don't use the Blog-Plugin you can just as well create usual Markdown-files and order them in your .yaml file accordingly, like so:
+If you want to set up a blog on your website you might want to think about using the [Blog-Plugin] by Mkdocs. This plugin enables features such as adding a date, reading time, tags, and topics for your blog entries ([example Blog] from their website). 
+
+If you don't use the Blog-Plugin you can just as well create usual Markdown-files and order them in your .yaml file accordingly, like so:
 ```yaml
 nav:
 - Home: index.md
