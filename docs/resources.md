@@ -20,6 +20,7 @@ There's really a lot you can do to create your own website. Here are some furthe
 | ...               |                              |     |
 
 
+
 ### Resources for HTML coding
 
 Personally, I recommend the tutorial by [W3 Schools]. The documentation is very comprehensive but easy to understand. Additionally, they provide you with an interactive editor where you can try things out and see which changes in the code lead to what kind of difference in the rendering. 

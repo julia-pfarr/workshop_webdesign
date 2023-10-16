@@ -25,35 +25,6 @@ You can adjust the height and width as you wish.
 
 ##### Task 2
 
-Add all the markdown extensions to your `mkdocs.yml` file, like so:
-```yaml
-markdown_extensions:
-  - admonition
-  - abbr
-  - attr_list
-  - def_list
-  - footnotes
-  - meta
-  - md_in_html
-  - codehilite
-  - pymdownx.critic
-  - pymdownx.caret
-  - pymdownx.keys
-  - pymdownx.mark
-  - pymdownx.tilde
-  - pymdownx.tabbed
-  - pymdownx.details
-  - pymdownx.inlinehilite
-  - pymdownx.smartsymbols
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-```
-
-##### Task 3
-
 Go to the website of [Material for Mkdocs] and add some nice features to your website. 
 
 Here's a short overview what you can do:
@@ -101,7 +72,7 @@ Highlighting:
 
 **...and much more! Try everything out!**
 
-##### Task 4
+##### Task 3
 
 Go to the [setup page] by Material for Mkdocs and find out about more customizations. E.g., for the footer Icons for social media can be included by defining them in the `mkdocs.yml` file like this:
 ```yaml

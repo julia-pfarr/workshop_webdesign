@@ -6,48 +6,74 @@ The landing page is the first page people see when they visit your website. As y
 - name a few buzz-words which describe yourself and your skills best
 - link to the most important section on your website
 
-#### Using Markdown 
+### Using Markdown only
 
-Surely, you can just apply your newly acquired Markdown-skills to create a landing page. 
+Surely, you can just apply your newly acquired Markdown-skills to create a landing page. For example, the landing page of this website was created using only Markdown. 
 
-##### Task 1
+You can use [images] and [buttons] combined with a text. See my `index.md` file as template. How to insert contact information in form of buttons will be shown in the next section "Pretty and useful extras".
 
-Design your landing page containing the content mentioned above using the resources of mkdocs:
 
-- Format your text in Markdown syntax
-- [Images]
-- [Buttons] for social media and contact in your `index.md` file. 
-- Icons for social media can be included in the Footer of the website as well, by defining them in the `mkdocs.yml` file like this:
-```yaml
-extra:
-  social:
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/your-account
-    - icon: material/email
-      link: mailto:email-address
-```
-The icon will then appear in the footer of your website. You can search for the icons [here], replacing the `-` with `/` when you enter it in your yaml-file. 
+### Using Markdown including html configurations
 
-#### Optional: Using HTML configurations
-
-A more advanced way to create a landing page is using html to override the basic theme configurations provided by mkdocs. This enables you to set not only a customized background color or image but basically everything you would want to change, re-size, add etc. This is a lot more work, though. 
+Sometimes you want a bit more customization than the Markdown syntax allows. Luckily, the Markdown syntax allows to insert plain html code. With this, you can apply the more flexible html configurations within your .md-file without having to learn all of the html language. 
 
 With the following tasks, you can create a landing page looking similar to this:
 
 ![landing](assets/images/example_landing.png)
 
-##### Optional Task 1
+##### Task 
 
-Create a new directory on the same level as the `docs` folder called `material` and again in this folder a new folder called `overrides`, like this:
-```
-.
-├── docs
-├── material
-│   └── overrides
-└── mkdocs.yml
+Try to use [html styles] to format and align your text (e.g., put a big text in the middle of the page). **Please see this [HTML info page] for formatting in html language.**
+
+Here is an example code for a landing page shown in the image above: 
+
+```html
+---
+hide:
+  - navigation
+  - toc
+---
+<!--/* Background image: applies to the "body" of the page */-->
+<!--/* background-repeat: if image should keep original size and repeat itself until full page is covered */-->
+<!--/* background-size and position to make image cover full page and don't stretch when changing the browser's window size */-->
+<style>
+body {
+  background-image: url('../assets/images/landing.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+</style>
+
+<!--/* Or background color instead: 
+<body style="background-color:aquamarine;"></body> */-->
+
+<!--/* Text alignement */-->
+<!--/* position, top, left, transofrm: vertical alignement; number is for how many pixels the text is shifted downwards*/-->
+<!--/* text-align: horizontal alignement */-->
+<b><h1 style="position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%); font-size:300%; color:black; text-align:center">NOWA Workshop</h1></b>
+
+<p style="position: absolute; top: 40%; left: 50%; transform: translate(-50%, -50%); font-size:150%; color:black; text-align:center"> Welcome and buzzwords</p>
+
+<!--/* One button in the middle of the page */-->
+<b><h3 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); margin: auto; text-align:center"><button>[Get to know me](link to next page){ .md-button .md-button--primary }</button></h3></b>
+
+<!--/* Buttons with social media icons next to each other */-->
+<b><h3 style="position: absolute; top: 60%; left: 35%; transform: translate(-50%, -50%); margin: auto; text-align:center"><button>[:fontawesome-brands-github:](link){ .md-button .md-button--primary }</button></h3></b>
+
+<b><h3 style="position: absolute; top: 60%; left: 45%; transform: translate(-50%, -50%); margin: auto; text-align:center"><button>[:fontawesome-brands-linkedin:](link){ .md-button .md-button--primary }</button></h3></b>
+
+<b><h3 style="position: absolute; top: 60%; left: 55%; transform: translate(-50%, -50%); margin: auto; text-align:center"><button>[:simple-researchgate:](link){ .md-button .md-button--primary }</button></h3></b>
+
+<b><h3 style="position: absolute; top: 60%; left: 65%; transform: translate(-50%, -50%); margin: auto; text-align:center"><button>[:simple-twitter:](link){ .md-button .md-button--primary }</button></h3></b>
 ```
 
-##### Optional Task 2
+### Even more html configurations
+
+If you want to customize even more in html language (like blocking out the header and footer on the landing page), it makes sense to override the whole theme of Material for MkDocs and use your own html configurations for EVERYTHING. With this you have more freedom but also more work. See below an example setup for a `home.html` and `main.html` file. 
+
+**1.**
 
 Create a `home.html` in your `overrides` directory and put the following content:
 ```html
@@ -115,14 +141,14 @@ Create a `home.html` in your `overrides` directory and put the following content
 
 **Please see this [HTML info page] for formatting in html language.**
 
-##### Optional Task 3
+**2:**
 
 Create another file in the same directory called `main.html` with the following content:
 ```html
 {% extends "base.html" %}
 ```
 
-##### Optional Task 4
+**3.**
 
 Open your `index.md` file and put the following content:
 ```md
@@ -131,10 +157,11 @@ template: overrides/home.html
 ---
 ```
 
-You should now see your landing page. 
 
-[Images]: https://squidfunk.github.io/mkdocs-material/reference/images/
-[Buttons]: https://squidfunk.github.io/mkdocs-material/reference/buttons/
-[here]: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+[images]: https://squidfunk.github.io/mkdocs-material/reference/images/
+[buttons]: https://squidfunk.github.io/mkdocs-material/reference/buttons/
+[icons]: https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
 [HTML info page]: https://www.w3schools.com/html/default.asp
-
+[html styles]: www.w3schools.com/html/html_styles.asp
+[background image]: https://www.w3schools.com/html/html_images_background.asp
+[background color]: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_styles_background-color

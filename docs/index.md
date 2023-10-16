@@ -9,6 +9,8 @@ hide:
 
 More and more scientists make use of easy static website generation to introduce themselves and their work to the broad public, potential future employers or funding sources.
 
+
+
 ![Image title](assets/images/landing.png){ align=right width="600"}
 
 During the workshop we will set up our own website using [Material for MkDocs] and [GitHub Pages].[^1]
@@ -20,7 +22,6 @@ After going through this workshop you'll have a first draft of your website and 
 Find additional background information on web design, the utilized tools in this workshop and CI on GitHub in these 
 
 [Google Slides](https://docs.google.com/presentation/d/16Rgdn_-uqjZVwmeyDhGL41vKMRCFA0dSom2IpreZ59I/edit?usp=sharing){ .md-button .md-button--primary }
-
 
 
 <br><br>

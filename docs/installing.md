@@ -14,7 +14,7 @@ pip install \
     mkdocs-material-extensions \
     pymdown-extensions 
 ```
-2. ... a [GitHub] account.
+2. ... a [GitHub] account and a [SSH key] setup. 
 3. ... a local code editor, such as [VS Code]. I highly recommend VS Code because it provides you with... 
     - syntax highlighting for multiple languages (which we will need)
     - displaying multiple files next to each other (we will need to modify content in multiple files simultaneously)
@@ -26,5 +26,6 @@ pip install \
 
 [python]: https://www.python.org/
 [GitHub]: https://github.com/
+[SSH key]: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 [VS Code]: https://code.visualstudio.com/
 [Git]: https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
