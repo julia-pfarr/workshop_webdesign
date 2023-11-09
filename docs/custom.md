@@ -90,7 +90,7 @@ Content divided in different sections is created by multiple Markdown-files. For
 
 ???+ note "Landing page"
 
-    How to create a pretty landing page is outlined in another section. Please focus on the content in this task, only. 
+    How to create a pretty landing page is outlined in another section. Please only focus on the content of your sections in this task. 
 
 ???+ note "Curriculum Vitae"
 

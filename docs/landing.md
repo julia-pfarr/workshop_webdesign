@@ -8,6 +8,8 @@ The landing page is the first page people see when they visit your website. As y
 
 ### Using Markdown only
 
+##### Task 1
+
 Surely, you can just apply your newly acquired Markdown-skills to create a landing page. For example, the landing page of this website was created using only Markdown. 
 
 You can use [images] and [buttons] combined with a text. See my `index.md` file as template. How to insert contact information in form of buttons will be shown in the next section "Pretty and useful extras".
@@ -21,7 +23,7 @@ With the following tasks, you can create a landing page looking similar to this:
 
 ![landing](assets/images/example_landing.png)
 
-##### Task 
+##### Optional task 
 
 Try to use [html styles] to format and align your text (e.g., put a big text in the middle of the page). **Please see this [HTML info page] for formatting in html language.**
 
@@ -73,7 +75,19 @@ body {
 
 If you want to customize even more in html language (like blocking out the header and footer on the landing page), it makes sense to override the whole theme of Material for MkDocs and use your own html configurations for EVERYTHING. With this you have more freedom but also more work. See below an example setup for a `home.html` and `main.html` file. 
 
-**1.**
+**1.** 
+
+Create a ```overrides``` directory inside your website folder (**not** inside the ```docs``` folder!).
+
+**2.**
+
+Open your ```mkdocs.yml``` file and put the following:
+```yml
+theme:
+  custom_dir: overrides
+```
+
+**3.**
 
 Create a `home.html` in your `overrides` directory and put the following content:
 ```html
@@ -148,7 +162,7 @@ Create another file in the same directory called `main.html` with the following 
 {% extends "base.html" %}
 ```
 
-**3.**
+**4.**
 
 Open your `index.md` file and put the following content:
 ```md
