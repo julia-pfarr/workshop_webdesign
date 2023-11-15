@@ -17,6 +17,8 @@ During the workshop we will set up our own website using [Material for MkDocs] a
 
 After going through this workshop you'll have a first draft of your website and the skills to develop the website further on your own.
 
+Take a look at  [Anna-Lena's website] that was created with this workshop for an example of what you can do!
+
 [Get started](https://julia-pfarr.github.io/workshop_webdesign/installing/){ .md-button }
 
 Find additional background information on web design, the utilized tools in this workshop and CI on GitHub in these 
@@ -30,3 +32,4 @@ Find additional background information on web design, the utilized tools in this
 
 [Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
 [GitHub Pages]: https://pages.github.com/
+[Anna-Lena's website]: https://eckertal.github.io/personal-website/
