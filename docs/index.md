@@ -29,12 +29,12 @@ Find additional background information on web design, the utilized tools in this
 
 ### Acknowledgements
 
-![sfb](assets/images/sfb.png){ align=right width="300"}
+![sfb](assets/images/sfb.png){ align=right width="200"}
 
 My work on this workshop was enabled through my work and training as a Data Steward in the [SFB 135] "Cardinal Mechanisms of Perception", infrastructure project [NOWA]. 
 
 
-<br><br>
+<br><br><br><br>
 [^1]: This website contains instructions on how to create a personal website using Material for MkDocs and is thus heavily based on the documentation pages for MkDocs, Material for MkDocs, and GitHub Pages. I want to thank the developers for making their software and documentation freely available for everyone.
 [^2]: Image by storyset, retrieved from freepik.
 
