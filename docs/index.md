@@ -26,6 +26,13 @@ Find additional background information on web design, the utilized tools in this
 [Google Slides](https://docs.google.com/presentation/d/16Rgdn_-uqjZVwmeyDhGL41vKMRCFA0dSom2IpreZ59I/edit?usp=sharing){ .md-button .md-button--primary }
 
 
+
+### Acknowledgements
+
+My work on this workshop was enabled through my work and training as a Data Steward in the [SFB 135] "Cardinal Mechanisms of Perception", infrastructure project [NOWA]. 
+
+![sfb](assets/images/sfb.png)
+
 <br><br>
 [^1]: This website contains instructions on how to create a personal website using Material for MkDocs and is thus heavily based on the documentation pages for MkDocs, Material for MkDocs, and GitHub Pages. I want to thank the developers for making their software and documentation freely available for everyone.
 [^2]: Image by storyset, retrieved from freepik.
@@ -33,3 +40,5 @@ Find additional background information on web design, the utilized tools in this
 [Material for MkDocs]: https://squidfunk.github.io/mkdocs-material/
 [GitHub Pages]: https://pages.github.com/
 [Anna-Lena's website]: https://eckertal.github.io/personal-website/
+[SFB 135]: https://www.sfb-perception.de/
+[NOWA]: https://sfbs.pages.uni-marburg.de/sfb135/nowa/nowa.site/
