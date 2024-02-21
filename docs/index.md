@@ -35,7 +35,7 @@ My work on this workshop was enabled through my work and training as a Data Stew
   ![sfb](assets/images/sfb.png){ width="300" }
 </figure>
 
-<br><br><br><br>
+<br><br>
 [^1]: This website contains instructions on how to create a personal website using Material for MkDocs and is thus heavily based on the documentation pages for MkDocs, Material for MkDocs, and GitHub Pages. I want to thank the developers for making their software and documentation freely available for everyone.
 [^2]: Image by storyset, retrieved from freepik.
 
